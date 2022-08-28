@@ -40,7 +40,7 @@ Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kuru
 `rosdep update`
 
 
-## ArduPilot
+## ArduPilot ve openCV
 `sudo apt-get update`
 
 `sudo apt-get upgrade`
@@ -56,5 +56,28 @@ Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kuru
 `git submodule update --init --recursive`
 
 `Tools/environment_install/install-prereqs-ubuntu.sh -y`
+
+`cd`
+
+`sudo apt install python-wxtools`
+
+`sudo apt install python-lxml`
+
+`sudo apt install python-pexpect`
+
+`. ~/.profile`
+
+`cd ardupilot/ArduCopter`
+
+`sim_vehicle.py -w`
+
+Restart Ubuntu System
+
+## Dronekit
+
+`pip install dronekit`
+`pip3 install dronekit`
+
+
 
 
