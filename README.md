@@ -79,7 +79,19 @@ Restart Ubuntu System
 
 ## ArduPilot Gazebo Plugin
 
+`git clone https://github.com/khancyr/ardupilot_gazebo`
 
+`cd ardupilot_gazebo`
+
+`mkdir build`
+
+`cd build`
+
+`cmake ..`
+
+`make -j4`
+
+`sudo make install`
 
 ## Dronekit
 
