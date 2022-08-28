@@ -41,8 +41,10 @@ Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kuru
 
 
 ## ArduPilot
-`sudo apt-get update
+`
+sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt-get install git
-sudo apt-get install gitk git-gui`
+sudo apt-get install gitk git-gui
+`
