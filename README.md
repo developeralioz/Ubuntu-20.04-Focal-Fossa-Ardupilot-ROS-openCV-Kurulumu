@@ -73,6 +73,10 @@ Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kuru
 
 Restart Ubuntu System
 
+`cd ardupilot/ArduCopter`
+
+`sim_vehicle.py --console --map`
+
 ## Dronekit
 
 `pip install dronekit`
