@@ -77,6 +77,10 @@ Restart Ubuntu System
 
 `sim_vehicle.py --console --map`
 
+## ArduPilot Gazebo Plugin
+
+
+
 ## Dronekit
 
 `pip install dronekit`
