@@ -1,6 +1,8 @@
 # Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kurulumu
 Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kurulumu
 
+## ROS
+
 `sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'`
 
 `sudo apt install curl`
@@ -13,3 +15,30 @@ Ubuntu 20.04 (Focal Fossa) üzerine ArduPilot, ROS Noetic, openCV, Dronekit Kuru
 
 `sudo apt install ros-noetic-desktop-full
 `
+
+`source /opt/ros/noetic/setup.bash
+`
+
+`echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+`
+
+
+`source ~/.bashrc
+`
+
+`sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+`
+
+
+`sudo apt install python3-rosdep
+`
+
+
+`sudo rosdep init
+`
+
+`rosdep update`
+
+
+## ArduPilot
+
